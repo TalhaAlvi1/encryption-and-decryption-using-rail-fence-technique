@@ -22,15 +22,15 @@ Define a direction variable that determines the movement between rails (1 for mo
 
 For each character in the plain text:
 
-Append the character to the current rail (rails[row]).
+Append the character to the current rail (rails[row]).
 
-Update the row based on the current direction:
+Update the row based on the current direction:
 
-If the current row is 0, change the direction to move down (set direction = 1).
+If the current row is 0, change the direction to move down (set direction = 1).
 
-If the current row is the last rail (num_rails - 1), change the direction to move up (set direction = -1).
+If the current row is the last rail (num_rails - 1), change the direction to move up (set direction = -1).
 
-Move to the next rail by updating row based on the direction value (row += direction).
+Move to the next rail by updating row based on the direction value (row += direction).
 
 Construct the Cipher Text:
 
